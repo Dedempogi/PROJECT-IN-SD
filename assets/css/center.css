@@ -1,0 +1,89 @@
+.center {
+    background-color: rgb(255, 255, 255);
+    height: 43rem;
+    text-align: center;
+    color: #15a8c2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.about_you {
+    background-color: #e6e6e6;
+    width: 35rem;
+    height: 15rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.abt {
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.registerForm {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.abtcon {
+    text-align: left;
+    margin-top: -1.3rem;
+}
+
+.abtcon input {
+    width: 100%;
+    font-size: 1.2rem;
+    padding:8;
+    background-color: white;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.nextButton {
+    margin-left: 24.3rem;
+    margin-top: 15px;
+}
+
+.cona {
+    border-top: 2px solid #e0e0e0;
+    margin-top: 2rem;
+}
+
+.stepper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem; 
+    gap: 14rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.step {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: 6px solid #cfcfcf;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #fff;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.step:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 250px;
+    height: 9px;
+    background-color: #cfcfcf;
+    z-index: -1;
+}

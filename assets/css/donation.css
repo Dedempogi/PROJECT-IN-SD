@@ -1,0 +1,62 @@
+.your_donation {
+    background-color: #e6e6e6;
+    width: 35rem;
+    height: 28rem;
+    padding: 1rem;
+    border-radius: 10px;
+    color: #15a8c2;
+}
+
+.center {
+    height: 53rem;
+}
+
+.donationForm {
+    background-color: white;
+    border-radius: 10px;
+    margin-top: -2rem;
+    overflow: hidden;
+    padding-bottom: 1.5rem;
+}
+
+.donta {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.abts {
+    padding: 3rem;
+}
+
+.donasd {
+    text-align: left;
+    padding-left: 3rem;
+    margin-top: 1rem;
+}
+
+.donasd input {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    padding: 10px;
+    color: black;
+    background-color: #e6e6e6;
+}
+
+.buttasd {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.asdsd {
+    padding: 0 66px;
+    cursor: pointer;
+    display: inline-block; 
+    border-radius: 4px; 
+    transition: background-color 0.3s; 
+}
+
+.asdsd.active {
+    background-color: #15a8c2; 
+    color: white;
+}

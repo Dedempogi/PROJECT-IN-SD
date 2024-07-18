@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    background-color: #15a8c2;
+    padding: 2rem;
+    justify-content: center;
+    align-items: self-start;
+}
+
+.logo {
+    width: 8rem;
+    height: 7rem;
+    margin-right: 3rem;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.search {
+    margin-left: -2rem;
+    width: 1rem;
+    height: 1rem;
+    padding: 7px;
+}
+
+.search1 {
+    width: 12rem;
+}
+
+.search_bar {
+    display: flex;
+    margin-left: 3.5rem;
+}
+
+header div {
+    margin-top: 1rem;
+}
